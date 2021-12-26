@@ -1,0 +1,117 @@
+.artshead{
+    width: 1200px;
+    margin: auto;
+    background-color: #fbf4ef;
+    display: flex;
+    align-items: center;
+}
+.headerwords{
+    background-color: #fbf4ef;
+    width: 1200px;
+    text-align: center;
+    margin-left: 32px;
+}
+h1{
+    font-size: 40px;
+    color: rgb(202, 130, 130);
+    margin-bottom: 10px;
+}
+.headfirst{
+    font-size: 20px;
+    color: rgb(202, 130, 130);
+}
+.talktoyou{
+    margin-top: 100px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.artsimg{
+    margin-top: -30px ;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+.artsimg img{
+    width: 600px;
+}
+
+
+.insub-menu{
+    display: flex;
+    justify-content: center;
+}
+.insub-menu li {
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+    
+}
+.insub-menu li a{
+    text-decoration: none;
+    color: rgb(145, 142, 142);
+    border-radius: 3px;
+    padding: 5px 10px;
+    border:1px solid rgb(202, 130, 130);
+    
+}
+.insub-menu li .now{
+    color: rgb(248, 248, 248);
+    background-color: rgb(202, 130, 130);
+    border-radius: 3px;
+    padding: 5px 10px;
+
+}
+.wrap{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fbf4ef;
+    padding: 30px 0 ;
+}
+.eur{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 100px;
+}
+.chinese{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 100px;
+}
+.japan{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 100px;
+}
+.classic{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 100px;
+}
+.chinese .item {
+    width: calc(100% / 3 - 30px);
+}
+.item{
+    /* border: 2px solid red; */
+    padding: 10px;
+    margin: 15px;
+    box-sizing: border-box;
+    width: calc(100% / 2 - 30px);
+}
+.item img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: -4px 4px 10px rgba(105, 105, 105, 0.5)
+}
+h3 {
+    margin: 20px 10px 10px;
+    font-family: 'Arial';
+    font-size: 18px;
+    color: rgb(131, 65, 40);
+}
+.txt{
+    margin: 15px 10px;
+    font-family: 'Arial';
+    font-size: 16px;
+    color: rgb(114, 111, 109);
+    line-height: 1.5;
+}

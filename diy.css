@@ -1,0 +1,283 @@
+.headerwords{
+    background-color: #fbf4ef;
+    width: 1200px;
+    text-align: center;
+    padding-left: 32px;
+    margin:auto;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 40px;
+    color: rgb(202, 130, 130);
+}
+.headfirst{
+    font-size: 20px;
+    color: rgb(202, 130, 130);
+}
+
+main {
+
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fbf4ef;
+}
+
+.course {
+    text-align: left;
+    display: inline-block;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 115px;
+    opacity: 0.8;
+    margin-right: 30px;
+    margin-bottom: 80px;
+    line-height: 1.5;
+}
+
+.course_right {
+    vertical-align: top;
+    display: inline-block;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.pic_up .bigimg{
+    width: 430px;
+    border-radius: 15px;
+}
+
+
+.pic_down {
+    text-align: center;
+    display: inline-block;
+    margin-top: -60px;
+}
+
+.course_pic .pic_down .bigimg {
+    display: inline-block;
+}
+
+.course_pic .smallimg {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 0 2px;
+    border-radius: 15px;
+    box-shadow: -4px 4px 10px rgba(105, 105, 105, 0.5);
+}
+.course_pic .smallimg:hover {
+    transform: scale(1.1);
+    box-shadow: -4px 4px 10px rgba(105, 105, 105, 0.5);
+}
+h2 {
+    border-left: 10px solid rgb(250, 167, 174);
+    margin: 0px 0px 5px -19px;
+    font-size: 22px;
+    font-family: 'Noto Serif JP', serif;
+    padding-left: 5px;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Arial';
+    font-size: 16px;
+}
+
+hr {
+    margin: 30px 0px;
+    color: #93948e;
+    opacity: 0.7;
+}
+
+span {
+    opacity: 0.8;
+    width: 380px;
+    font-family: 'Arial';
+    font-size: 14px;
+}
+
+
+
+.buttongoto {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    padding: 8px 10px;
+    background-color: #878d8b;
+    font-family: 'Noto Serif JP', serif;
+    border-radius: 5px;
+    transition: all 0.6s;
+    position: relative;
+}
+
+.bigimg {
+
+    margin-top: 80px;
+}
+
+
+.buttonall {
+    margin-top: 60px;
+    font-size: 16px;
+    display: inline-block;
+    box-shadow: -1px 6px 10px 0px rgb(165, 165, 165);
+}
+
+@keyframes loopAni {
+    from {
+        opacity: 0;
+        transform: scale(1, 1);
+        border-width: 0.2px;
+    }
+
+    to {
+        opacity: 0.9;
+        transform: scale(1.2, 1.2);
+        border-width: 1px;
+    }
+}
+
+
+.buttongoto:hover {
+    background-color: #d17a90;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+}
+
+.section4 {
+
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1000px;
+    margin-bottom: 170px;
+    text-align: center;
+}
+
+
+.aclose {
+    cursor: pointer;
+    margin: 20px;
+    display: inline-block;
+    opacity: 0.5;
+    transition: all 0.8s;
+}
+.aclose img{
+    width: 50px;
+}
+
+.aclose:hover {
+    color: #5d5e59;
+    opacity: 1;
+}
+
+#jpw {
+
+    background-color: #838383;
+    font-family: 'Noto Serif JP', serif;
+    width: 45%;
+    height: 100vh;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    overflow-y: scroll;
+    display: none;
+}
+
+.alljpw{
+   line-height: 1.5;
+    width: 500px;
+    margin: 0 auto;
+}
+.jpwwords {
+    border-left: 10px solid rgb(250, 167, 174);
+    padding-left: 5px;
+    color: white;
+    margin: 50px 0px 15px 52px;
+    font-size: 16px;
+}
+
+.jpwwordss {
+   
+    color: white;
+    font-size: 14px;
+    margin: 0px 0px 15px 70px;
+    opacity: 0.8;
+}
+
+form {
+    
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Noto Serif JP', serif;
+    letter-spacing: 1px;
+    margin: 0px 70px;
+    margin-bottom: 70px;
+}
+
+select {
+    border: 0px;
+    margin: 6px 0px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.6);
+    width: 40px;
+    height: 25px;
+}
+
+input {
+    border: 1px solid rgba(61, 61, 61, 0.5);
+    border-radius: 5px;
+    margin: 6px 0px;
+    padding: 3px;
+    background-color: rgb(255, 255, 255, 0.6);
+
+}
+
+
+.submit {
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 12px;
+    padding: 5px;
+    transition: all 1s;
+}
+
+.submit:hover {
+    background-color: rgb(199, 129, 150);
+    color: rgb(255, 255, 255);
+}
+
+
+
+textarea {
+    width: 350px;
+    height: 120px;
+    border: 0px;
+    background-color: rgb(255, 255, 255, 0.6);
+    margin: 6px 0px;
+    border-radius: 5px;
+    resize: none;
+}
+.contact{
+    width: 1200px;
+    margin:auto ;
+    box-sizing: border-box;
+    background-color: #f1d1bb;
+}
+.card-text{
+    text-align: left;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 115px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}

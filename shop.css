@@ -1,0 +1,265 @@
+.abouthead{
+    width: 1200px;
+    margin: auto;
+    background-color: #fbf4ef;
+    display: flex;
+    align-items: center;
+}
+.headerwords{
+    /* background-color: aqua; */
+    margin: 100px 0 0;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+h1{
+    font-size: 40px;
+    color: rgb(202, 130, 130);
+}
+.headfirst{
+    font-size: 20px;
+    color: rgb(202, 130, 130);
+    margin: 10px 0;
+}
+.talktoyou{
+    margin-top: 100px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.shopimg{
+    margin-top:50px ;
+    margin-right: 50px;
+}
+.shopimg img{
+    width: 600px;
+}
+.section{
+    width: 1200px;
+    margin: auto;
+    background-color: #fbf4ef;
+}
+h2 {
+    border-left: 10px solid rgb(250, 167, 174);
+    margin-left: -10px;
+    font-size: 20px;
+    padding-left: 5px;
+    font-family: 'Noto Serif JP';
+    text-align: center;
+    display: inline-block;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+    margin: 0 auto;
+    width: 1200px;
+    padding-top: 100px;
+    text-align: center;
+    background-color: #fbf4ef;
+
+}
+
+.section4 {
+
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.shopwi {
+
+    display: inline-block;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.shopcent {
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 62px;
+
+}
+
+.shopworks {
+
+    display: inline-block;
+    width: 1200px;
+
+}
+
+
+.shopworkso {
+   
+    width: 300px;
+    height: 200px;
+    background-image: url(pic/shop/shop-sc-bakery.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    display: block;
+    padding: 0;
+    margin: 25px 10px;
+    transition: all 0.8s;
+}
+
+.shopworkso:hover {
+    transform: scale(1.1);
+    box-shadow: -4px 4px 10px rgba(105, 105, 105, 0.5);
+}
+
+.shopworkso1,
+.shopworkso2,
+.shopworkso3,
+.shopworkso4,
+.shopworkso5,
+.shopworkso6,
+.shopworkso7,
+.shopworkso8,
+.shopworkso9,
+.shopworkso10,
+.shopworkso11,
+.shopworkso12,
+.shopworkso13,
+.shopworkso14,
+.shopworkso15,
+.shopworkso16,
+.shopworkso17,
+.shopworkso18,
+.shopworkso19,
+.shopworkso20 {
+   
+    width: 300px;
+    height: 200px;
+    display: block;
+    padding: 0;
+    margin: 25px 10px;
+    transition: all 0.8s;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+.shopworkso1:hover,
+.shopworkso2:hover,
+.shopworkso3:hover,
+.shopworkso4:hover,
+.shopworkso5:hover,
+.shopworkso6:hover,
+.shopworkso7:hover,
+.shopworkso8:hover,
+.shopworkso9:hover,
+.shopworkso10:hover,
+.shopworkso11:hover,
+.shopworkso12:hover,
+.shopworkso13:hover,
+.shopworkso14:hover,
+.shopworkso15:hover,
+.shopworkso16:hover,
+.shopworkso17:hover,
+.shopworkso18:hover,
+.shopworkso19:hover,
+.shopworkso20:hover {
+    transform: scale(1.1);
+    box-shadow: -4px 4px 10px rgba(105, 105, 105, 0.5);
+}
+
+.shopworkso1 {
+    background-image: url(pic/shop/shop-sc-living\ room.jpg);
+    
+}
+
+.shopworkso2 {
+    background-image: url(pic/shop/shop-sc-bathroom.jpg);
+}
+
+.shopworkso3 {
+    background-image: url(pic/shop/shop-sc-kitch.jpg);
+}
+
+.shopworkso4 {
+    background-image: url(pic/shop/shop-sc-study.jpg);
+}
+
+.shopworkso5 {
+    background-image: url(pic/shop/shop-chair.jpg);
+}
+
+.shopworkso6 {
+    background-image: url(pic/shop/shop-drawing.jpg);
+}
+
+.shopworkso7 {
+    background-image: url(pic/shop/shop-mask.jpg);
+}
+
+.shopworkso8 {
+    background-image: url(pic/shop/shop-package.jpg);
+}
+
+.shopworkso9 {
+    background-image: url(pic/shop/shop-plants.jpg);
+}
+
+.shopworkso10 {
+    background-image: url(pic/shop/shop-toast.png);
+}
+
+.shopworkso11 {
+    background-image: url(pic/shop/shop-sushi.jpg);
+}
+
+.shopworkso12 {
+    background-image: url(pic/shop/shop-re-bedroom.jpg);
+}
+
+.shopworkso13 {
+    background-image: url(pic/shop/shop-re-camera.jpg);
+}
+
+.shopworkso14 {
+    background-image: url(pic/shop/shop-re-cosmo.jpg);
+}
+
+.shopworkso15 {
+    background-image: url(pic/shop/shop-set-bread.jpg);
+}
+
+.shopworkso16 {
+    background-image: url(pic/shop/shop-set-breakfast.jpg);
+}
+
+.shopworkso17 {
+    background-image: url(pic/shop/shop-set-coffee.jpg);
+}
+.shopworkso18 {
+    background-image: url(pic/shop/shop-set-desk.jpg);
+}
+
+.shopworkso19 {
+    background-image: url(pic/shop/shop-set-dessert.jpg);
+}
+.shopworkso20 {
+    background-image: url(pic/shop/shop-set-lunchbox.png);
+}
+.ashop {
+
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.wordsh {
+    color: rgb(131, 65, 40);
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+}
+
+.bakery{
+    text-decoration: none;
+    color: black;
+}
+.bakery:hover{
+    color: rgb(202, 130, 130);
+}

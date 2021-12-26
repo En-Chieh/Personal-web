@@ -1,0 +1,118 @@
+header{
+    width: 1200px;
+    margin: auto;
+    background-color: #fbf4ef;
+}
+.headerall{
+    width: 100%;
+    margin: auto;
+    background-color: #fbf4ef;
+    /* opacity: 0.9; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.toplogo img{
+    width: 200px;
+    height:auto;
+    margin: 5px 15px;
+    padding-left: 50px;
+}
+
+.main-nav{
+	background-color: #fbf4ef;
+}
+.main-nav .menu{
+	width: 500px;
+    margin: 15px 50px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.main-nav .menu a{
+    border-left:1px solid rgb(122, 116, 116);
+	text-decoration: none;
+	color: rgb(122, 116, 116);
+	display: block;
+	padding: 5px 10px;
+}
+.main-nav .menu > li{
+	position: relative;
+}
+.main-nav .sub-menu{
+	position: absolute;
+	width: 7em;
+	background: #fbf4ef;
+	display: none;
+	top: 100%;
+}
+.main-nav .menu li:hover > a{
+	background-color: rgb(228, 153, 153);
+    color: aliceblue;
+}
+.main-nav li:hover > .sub-menu{
+	display: block;
+}
+
+.member{
+    padding-right: 40px;
+    width: 200px;
+    display: flex;
+    /* justify-content: right; */
+    align-items: center;
+    text-align: right;
+    /* background-color: cadetblue; */
+}
+.member img{
+    width: 40px;
+}
+.member a{
+    text-decoration: none;
+    padding: 0 2px;
+    color: #fff;
+}
+.member snap{
+    padding: 0px 5px ;
+    color: #fff;
+}
+.member > a:hover{
+	color: rgb(187, 130, 130);
+}
+.member > a:hover img{
+	background-color: rgb(187, 130, 130);
+}
+
+footer{
+    width: 1200px;
+    margin: auto;
+    background-color: #9e9d9c;
+    padding: 20px 0;
+}
+footer .footer_up{
+    background-color: #9e9d9c;
+    font-family: 'EB Garamond';
+    color: #e7e7e7;
+    font-size: 16px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0 100px ;
+}
+footer .footer_down{
+    background-color: #9e9d9c;
+    font-family: 'EB Garamond';
+    color: #e7e7e7;
+    text-align: center;
+    font-size: 12px;
+}
+footer .footer_down .txt1{
+    margin: 10px;
+}
+.icon_pic{
+    display: flex;
+}
+.icon_pic img{
+    width: 70px;
+    margin: auto;
+}
