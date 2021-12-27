@@ -76,7 +76,7 @@ main {
     box-shadow: -4px 4px 10px rgba(105, 105, 105, 0.5);
 }
 h2 {
-    border-left: 10px solid rgb(250, 167, 174);
+    border-left: 10px solid #f5b5bb;
     margin: 0px 0px 5px -19px;
     font-size: 22px;
     padding-left: 5px;
@@ -247,7 +247,7 @@ input {
 
 .submit:hover {
     background-color: rgb(199, 129, 150);
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 
@@ -265,7 +265,7 @@ textarea {
     width: 1200px;
     margin:auto ;
     box-sizing: border-box;
-    background-color: #f1d1bb;
+    background-color: #ffe9d4d7;
 }
 .card-text{
     font-size: 14px;

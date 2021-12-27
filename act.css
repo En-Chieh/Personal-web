@@ -67,7 +67,7 @@ h1{
 .act_diy h4{
     font-size: 18px;
     margin: 25px 0 0;
-    color:rgb(202, 130, 130);
+    color:#946464;
     text-align: center;
 }
 .act_diy p{
@@ -84,9 +84,11 @@ h1{
 }
 .vendor h4:hover{
     color: rgb(211, 145, 145);
+    transform: scale(1.1);
 }
 .vendor p:hover{
     color: rgb(211, 145, 145);
+    transform: scale(1.1);
 }
 .act_class img:hover {
     transform: scale(1.1);
@@ -94,19 +96,21 @@ h1{
 }
 
 h2 {
-    width: 150px;
-    font-size: 30px;
-    color: rgb(122, 122, 122);
+    border-bottom: 5px solid #f5b5bb;
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-family: 'Microsoft JhengHei';
+    text-align: center;
+    display: inline-block;
     margin-left: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 .artists {
     width: 1200px;
     height: 500px;
     margin: auto;
-    background-color: #fcd5b0d7;
+    background-color: #ffe9d4d7;
     background-image: url(pic/act/artists.png);
     background-repeat:no-repeat;
     background-size: 80%;
@@ -116,9 +120,33 @@ h2 {
 .txt{
     text-align: center;
     padding: 25px;
-    margin: 10px 0 0 400px;
+    margin: 5px 0 0 400px;
     font-size: 18px;
     line-height: 1.5;
+    color: #6d6c6c;
+}
+
+.buttonall{
+    width: 80px;
+    height: 25px;
+    border: 1px solid rgb(202, 130, 130);
+    text-align: center;
+    margin:8px auto;
+    border-radius: 5px;
+}
+.buttonall:hover{
+    background-color: rgb(238, 202, 148);
+    border: 1px solid rgb(238, 202, 148);
+    color: rgb(255, 255, 255);
+}
+.buttongoto:hover{
+    color: rgb(255, 255, 255);
+}
+.buttongoto{
+    color: rgb(58, 58, 58);
+    font-family: "Arial";
+    font-size: 18px;
+    text-decoration: none;
 }
 .exhibition{
     width: 1200px;
@@ -134,7 +162,12 @@ h2 {
    margin: auto;
 }
 .exhibition h2{
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 40px;
+ }
+ .exhibition .en{
+    font-size: 20px;
     text-align: center;
     margin-left: 40px;
  }
@@ -155,7 +188,7 @@ h3 {
     margin: 10px;
     font-size: 16px;
     font-size: large;
-    color: saddlebrown;
+    color: #946464;
 }
 .content p{
     margin: 10px;

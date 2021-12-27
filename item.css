@@ -105,7 +105,7 @@ h1{
 }
 
 h2 {
-    border-left: 10px solid rgb(230, 146, 146);
+    border-left: 10px solid #f5b5bb;
     margin: 90px 0px 5px -19px;
     font-size: 22px;
     padding-left: 5px;
@@ -127,7 +127,9 @@ hr {
     margin: 0;
     font-family: "Arial";
     font-size: 20px;
-
+    color:rgb(238, 202, 148);
+    text-shadow: 0.03em 0.05em 0.1em rgb(224, 210, 210);
+    font-weight: bold;
 }
 
 .intro{
@@ -157,7 +159,7 @@ hr {
 }
 
 .buttonall {
-    width: 200px;
+    width: 140px;
     margin: 30px 0px 18px 0px;
     font-size: 16px;
     display: inline-block;

@@ -287,7 +287,7 @@ h3{
     align-items: center;
 }
 .back{
-    background-color: #fcd5b0d7;
+    background-color: #ffe9d4d7;
     width: 1200px;
     height: 500px;
     position: relative;
@@ -296,7 +296,7 @@ h3{
 .shop-item{
     position: absolute;
     top: 160px;
-    left: 180px;
+    left: 170px;
 }
 .products img{
     width: 240px;
@@ -328,22 +328,45 @@ h3{
     width: 100%;
     border-radius: 20px;
     box-shadow: black;
+    box-shadow: black;
+    box-shadow: -4px 4px 10px rgba(105, 105, 105, 0.5)
 }
 .act_diy h4{
     font-size: 18px;
     margin: 15px 0 0;
-    color:rgb(202, 130, 130);
+    color:#946464;
+    text-align: center;
     font-family:"Microsoft JhengHei";
 }
 .act_diy p{
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     font-family:"Microsoft JhengHei";
     line-height: 1.5;
     margin: 10px;
     padding-bottom:30px ;
     text-align: center;
 }
+
+.act_content{
+    text-decoration: none;
+    color: black;
+}
+.act_content h4:hover{
+    color: rgb(211, 145, 145);
+    transform: scale(1.1);
+}
+.act_content p:hover{
+    color: rgb(211, 145, 145);
+    transform: scale(1.1);
+}
+.act_class img:hover {
+    transform: scale(1.1);
+    box-shadow: -4px 4px 10px rgba(105, 105, 105, 0.5);
+}
+
+
+
 
 .buttonall{
     width: 80px;
@@ -353,17 +376,22 @@ h3{
     margin: auto;
     border-radius: 5px;
     position: relative;
-    z-index: 2;
-    top: -15px;
+}
+.buttonall:hover{
+    background-color: rgb(238, 202, 148);
+    border: 1px solid rgb(238, 202, 148);
+    color: rgb(255, 255, 255);
 }
 .buttongoto:hover{
-    color: rgb(202, 130, 130);
+    color: rgb(255, 255, 255);
 }
 .buttongoto{
-    color: black;
+    color: rgb(58, 58, 58);
     font-family: "Arial";
     font-size: 18px;
     text-decoration: none;
+    position: relative;
+    top: 4px;
 }
 
 .about .buttonall{
