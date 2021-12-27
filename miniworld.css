@@ -1,4 +1,6 @@
-
+.container{
+    background-color: #fbf4ef;
+}
 .banner {
     width: 1200px;
     margin: auto;
@@ -32,7 +34,7 @@
 h1{
     font-size: 40px;
     color: #9c9a99;
-    font-family:"Microsoft JhengHei";
+    font-family: "Arial";
     margin-left: 150px;
     
 }
@@ -65,7 +67,7 @@ h2{
 }
 h3{
     color:rgb(202, 130, 130);
-    font-family:"Microsoft JhengHei";
+    font-family: "Arial";
     font-size: 20px;
     font-weight: bold;
     margin-top: 15px;
@@ -165,6 +167,9 @@ h3{
     padding: 20px;
     margin: 0 20px;
     font-family:"Microsoft JhengHei";
+}
+.arts h4 .en{
+    font-family:"Arial";
 }
 .arts p{
     font-size: 16px;
@@ -358,7 +363,7 @@ h3{
 }
 .buttongoto{
     color: black;
-    font-family:"Microsoft JhengHei";
+    font-family: "Arial";
     font-size: 18px;
     text-decoration: none;
 }
@@ -372,4 +377,7 @@ h3{
 
 .arts .buttonall{
     top: 20px;
+}
+.en{
+    font-family:"Arial";
 }

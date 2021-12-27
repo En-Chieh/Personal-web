@@ -15,12 +15,16 @@ h1{
     font-size: 40px;
     color: rgb(202, 130, 130);
 }
+.en{
+    font-family:"Arial";
+}
 .headfirst{
     font-size: 20px;
     color: rgb(202, 130, 130);
     margin: 10px 0;
 }
 .talktoyou{
+    color:#6d6c6c;
     margin-top: 100px;
     font-size: 18px;
     line-height: 1.5;
@@ -33,6 +37,7 @@ h1{
 }
 .actimg img{
     width: 400px;
+    border-radius: 20px;
 }
 
 .course{
@@ -43,7 +48,6 @@ h1{
 }
 .act_class{
     display: flex;
-    /* background-color: aqua; */
     margin: 0 80px;
 }
 .act_diy{
@@ -93,7 +97,6 @@ h2 {
     width: 150px;
     font-size: 30px;
     color: rgb(122, 122, 122);
-    font-family: 'Noto Serif JP', serif;
     margin-left: 100px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -111,19 +114,12 @@ h2 {
     padding-top:10px ;
 }
 .txt{
-    /* background-color: rgba(105, 105, 105, 0.5); */
     text-align: center;
     padding: 25px;
     margin: 10px 0 0 400px;
     font-size: 18px;
     line-height: 1.5;
 }
-/* .artists img{
-    width: 300px;
-    margin: 10px;
-    border-radius: 100px;
-} */
-
 .exhibition{
     width: 1200px;
     margin: auto;
@@ -157,14 +153,12 @@ h2 {
 }
 h3 {
     margin: 10px;
-    font-family: 'Arial';
     font-size: 16px;
     font-size: large;
     color: saddlebrown;
 }
 .content p{
     margin: 10px;
-    font-family: 'Arial';
     font-size: 16px;
     line-height: 1.5    ;
 }

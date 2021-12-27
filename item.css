@@ -10,6 +10,9 @@ h1{
     font-size: 40px;
     color: rgb(202, 130, 130);
 }
+.en{
+    font-family:"Arial";
+}
 .headfirst{
     font-size: 20px;
     color: rgb(202, 130, 130);
@@ -102,16 +105,15 @@ h1{
 }
 
 h2 {
-    border-left: 10px solid rgb(255, 200, 0);
+    border-left: 10px solid rgb(230, 146, 146);
     margin: 90px 0px 5px -19px;
     font-size: 22px;
-    font-family: 'Noto Serif JP', serif;
     padding-left: 5px;
 }
 
 h3 {
     margin: 0;
-    font-family: 'Arial';
+    font-family: "Arial";
     font-size: 16px;
 }
 
@@ -123,7 +125,7 @@ hr {
 .price {
     width: 350px;
     margin: 0;
-    font-family: 'Arial';
+    font-family: "Arial";
     font-size: 20px;
 
 }
@@ -136,7 +138,7 @@ hr {
 }
 
 .ew {
-    font-family: 'Arial';
+    font-family: "Arial";
     font-size: 14px;
 }
 .buttongoto {

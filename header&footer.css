@@ -62,7 +62,7 @@ header{
     /* justify-content: right; */
     align-items: center;
     text-align: right;
-    /* background-color: cadetblue; */
+    font-family: "Arial";
 }
 .member img{
     width: 40px;
@@ -83,14 +83,13 @@ header{
 	background-color: rgb(187, 130, 130);
 }
 footer{
-    width: 1200px;
+    width: 100%;
     margin: auto;
     background-color: #9e9d9c;
     padding: 20px 0;
 }
 footer .footer_up{
     background-color: #9e9d9c;
-    font-family: 'EB Garamond';
     color: #e7e7e7;
     font-size: 16px;
     line-height: 32px;
@@ -101,13 +100,16 @@ footer .footer_up{
 }
 footer .footer_down{
     background-color: #9e9d9c;
-    font-family: 'EB Garamond';
     color: #e7e7e7;
     text-align: center;
     font-size: 12px;
 }
 footer .footer_down .txt1{
     margin: 10px;
+    font-family: "Arial";
+}
+footer .fe{
+    font-family: "Arial";
 }
 .icon_pic{
     display: flex;
