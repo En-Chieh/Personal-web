@@ -16,6 +16,7 @@ h1{
 .headfirst{
     font-size: 20px;
     color: rgb(202, 130, 130);
+    margin: 10px 0;
 }
 
 main {
@@ -261,14 +262,16 @@ textarea {
     resize: none;
 }
 .contact{
-    width: 100%;
+    width: 1200px;
     margin:auto ;
     box-sizing: border-box;
     background-color: #f1d1bb;
 }
 .card-text{
+    font-size: 14px;
     text-align: left;
     display: inline-block;
+    align-items: center;
     margin-top: 40px;
     margin-left: 115px;
     margin-right: 30px;

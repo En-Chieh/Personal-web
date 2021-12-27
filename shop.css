@@ -57,16 +57,14 @@ h2 {
 .section2,
 .section3,
 .section4 {
-    margin: 0 auto;
+    margin:auto;
     width: 1200px;
     padding-top: 100px;
     text-align: center;
     background-color: #fbf4ef;
-
 }
 
 .section4 {
-
     text-align: center;
     padding-bottom: 100px;
 }
@@ -86,15 +84,12 @@ h2 {
 }
 
 .shopworks {
-
     display: inline-block;
     width: 1200px;
-
 }
 
 
 .shopworkso {
-   
     width: 300px;
     height: 200px;
     background-image: url(pic/shop/shop-sc-bakery.jpg);
@@ -244,17 +239,9 @@ h2 {
 .shopworkso20 {
     background-image: url(pic/shop/shop-set-lunchbox.png);
 }
-.ashop {
-
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-
-}
 
 .wordsh {
-    color: rgb(131, 65, 40);
+    color: rgb(148, 100, 100);
     font-size: 18px;
     display: block;
     text-align: center;
@@ -265,10 +252,18 @@ h2 {
     text-decoration: none;
     color: black;
 }
-.bakery:hover{
+.shopwi a{
+    text-decoration: none;
+}
+.wordsh:hover{
     color: rgb(202, 130, 130);
+    transform: scale(1.1);
 }
 h6{
     font-family:"Arial";
     color:#6d6c6c;
+}
+.container{
+    width: 100%;
+    background-color: #fbf4ef;
 }
