@@ -113,7 +113,7 @@ h2 {
 
 .back{
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-image: url(pic/about/about-story2.png ); 
     background-repeat: no-repeat;
     background-position: right;
@@ -141,7 +141,7 @@ h2 {
 }
 .story_words> .title_words{
     color: #ececec;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing:1.5px;
     line-height: 1.7;
     margin: auto;
@@ -269,6 +269,10 @@ section .make{
     .story_words{
         width: 600px;
         margin:60px 50px 0;
+    }
+    .story_words> .title_words{
+        color: #ececec;
+        font-size: 18px;
     }
 
 
