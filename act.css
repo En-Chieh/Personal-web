@@ -1,15 +1,18 @@
 .acthead{
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
     background-color: #fbf4ef;
-    display: flex;
+    display: block;
     align-items: center;
 }
 .headerwords{
     background-color: #fbf4ef;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     text-align: center;
-    margin-left: 32px;
+    /* margin-left: 32px; */
+    padding-top: 100px;
 }
 h1{
     font-size: 40px;
@@ -25,35 +28,35 @@ h1{
 }
 .talktoyou{
     color:#6d6c6c;
-    margin-top: 100px;
+    margin: 30px 0;
     font-size: 18px;
     line-height: 1.5;
 }
 .actimg{
-    margin-top: -50px;
-    margin-right: 100px;
-    margin-bottom: 50px;
+    width: 100%;
+    margin: auto;
     position: relative;
 }
 .actimg img{
-    width: 400px;
-    border-radius: 20px;
+    width: 100%;
+    /* border-radius: 20px; */
 }
 
 .course{
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
     background-color: #fbf4ef;
     padding: 20px 0; 
 }
 .act_class{
-    display: flex;
+    display: block;
     margin: 0 80px;
 }
 .act_diy{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 90%;
     margin: 15px;
     align-items: center;
 }
@@ -104,23 +107,24 @@ h2 {
     display: inline-block;
     margin-left: 100px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .artists {
-    width: 1200px;
-    height: 500px;
+    width: 100%;
+    max-width: 1200px;
+    height: 600px;
     margin: auto;
     background-color: #ffe9d4d7;
-    background-image: url(pic/act/artists.png);
+    background-image: url(pic/act/artists2.gif);
+    background-position-y: 100%;
+    background-position-x: 30px;
     background-repeat:no-repeat;
-    background-size: 80%;
-    background-position: center;
-    padding-top:10px ;
+    background-size: 60%;
+    /* background-position: center; */
 }
 .txt{
     text-align: center;
-    padding: 25px;
-    margin: 5px 0 0 400px;
+    padding: 30px 0;
     font-size: 18px;
     line-height: 1.5;
     color: #6d6c6c;
@@ -131,7 +135,7 @@ h2 {
     height: 25px;
     border: 1px solid rgb(202, 130, 130);
     text-align: center;
-    margin:8px auto;
+    margin:20px auto;
     border-radius: 5px;
 }
 .buttonall:hover{
@@ -149,32 +153,25 @@ h2 {
     text-decoration: none;
 }
 .exhibition{
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
     background-color: #fbf4ef; 
     padding: 20px 0; 
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
 }
-.exhibition .title{
-   text-align: center;
-   width: 200px;
-   margin: auto;
-}
 .exhibition h2{
-    font-size: 20px;
-    text-align: center;
-    margin-left: 40px;
+    margin-bottom: 10px;
  }
  .exhibition .en{
-    font-size: 20px;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 100px;
  }
 .exi_content{
-    display: flex;
+    display: block;
     align-items: center;
-    margin-right: 80px;
+    margin: auto;
 }
 .content img{
     width: 300px;
@@ -182,7 +179,11 @@ h2 {
 }
 .content{
     width: 300px;
-    padding:0 25px;
+    margin: 20px auto;
+}
+.limit{
+    display: flex;
+    flex-direction: column-reverse;
 }
 h3 {
     margin: 10px;
@@ -194,4 +195,84 @@ h3 {
     margin: 10px;
     font-size: 16px;
     line-height: 1.5    ;
+}
+
+@media screen and (min-width:768px) {
+    .acthead{
+        display: flex;
+    }
+    .headerwords{
+        padding-top: 0;
+    }
+    .actimg img{
+        width: 400px;
+        border-radius: 20px;
+    }
+    .talktoyou{
+        margin-top: 100px;
+    }
+    .act_class{
+        display: flex;
+        margin: 0 80px;
+    }
+    .act_diy{
+        width: 400px;
+    }
+    .txt{
+        text-align: center;
+        padding: 25px;
+        margin: 20px 0 0 400px;
+    }
+    h2{
+       margin-bottom: 20px;  
+    }
+    .exhibition{
+        display: flex;
+        justify-content: space-around;
+    }
+    .exhibition .title{
+       text-align: center;
+       width: 300px;
+       margin: auto;
+    }
+    .exhibition .title h2{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 20px;
+     }
+     .exhibition .en{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+    
+     }
+    .exi_content{
+        display: flex;
+        align-items: center;
+        margin-right: 80px;
+    }
+    .exi_content{
+        display: flex;
+        align-items: center;
+        margin-right: 80px;
+    }
+    .limit{
+        display: block;
+    }
+    .content{
+        width: 300px;
+        padding:0 25px;
+    }
+    @media screen and (min-width:1030px) {
+        .artists {
+            height: 550px;
+            background-image: url(pic/act/artists.gif);
+            background-repeat:no-repeat;
+            background-size: 80%;
+            background-position: center;
+            padding-top:10px ;
+        }
+    }
+
 }

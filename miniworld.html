@@ -7,76 +7,136 @@
     
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="miniworld.css">
-    <link rel="stylesheet" href="header&footer.css">
+    <link rel="stylesheet" href="header_and_footer.css">
+    <link rel="stylesheet" href="share.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>miniworld</title>
     <link rel="icon" href="pic/homepage/web-icon.ico">
     <link rel="shortcut icon" href="pic/homepage/web-icon.ico">
+    <link rel="stylesheet" href="assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owl.theme.default.min.css">
+  
+    
 </head>
 <body>
-    <header>
-        <div class="headerall">
-            <a class="toplogo" href="./miniworld.html">
-                <img class="logo" src="pic/homepage/header-logo2.png" alt="">
-            </a>
-            <nav class="main-nav">
-                <ul class="menu">
-                <li><a href="about.html">關於袖珍</a>
-                
-                    <ul class="sub-menu">
-                        <li><a href="about.html#news">最新消息</a></li>
-                        <li><a href="about.html#story">袖珍故事</a></li>
-                        <li><a href="about.html#tool">製作工具</a></li>
-                        <li><a href="about.html#process">製作流程</a></li>
-                    </ul></li>
-                <li><a href="arts.html">作品參考</a>
-                    <ul class="sub-menu">
-                        <li><a href="arts.html#eur">歐式</a></li>
-                        <li><a href="arts.html#chi">中式</a></li>
-                        <li><a href="arts.html#jap">日式</a></li>
-                        <li><a href="arts.html#hot">經典</a></li>
-                    </ul></li>
-                <li><a href="shop.html">袖珍商城</a>
-                    <ul class="sub-menu">
-                        <li><a href="shop.html#scenes">精選場景</a></li>
-                        <li><a href="shop.html#accessories">配件</a></li>
-                        <li><a href="shop.html#recommend">推薦商品</a></li>
-                        <li><a href="shop.html#set">經典組合</a></li>
-                    </ul></li>
-                <li><a href="act.html">相關活動</a>
-                    <ul class="sub-menu">
-                        <li><a href="act.html#diycourse"><snap class="en">DIY</snap>課程</a></li>
-                        <li><a href="act.html#artists">藝術家演講</a></li>
-                        <li><a href="act.html#exhibition">袖珍藝廊</a></li>
-                    </ul>
-                </li>
-                </ul>
-            </nav>
+    <input type="checkbox" id="menu-check">
+    <header class="main-header">
+        <a href="./miniworld.html" class="logo">
+        <img class="main-logo" src="pic/homepage/header-logo4.png">
+        </a>
+        <a class="top_logo" href="./miniworld.html">
+            <img class="logo" src="pic/homepage/header-logo.png" alt="">
+        </a>
 
-            <div class="member">
-                <a class="headericona" href="#"><img class="iconmember" src="pic/homepage/header-member.png" ></a>
-                <a class="anclass" href="#">LOGIN</a>
-                <snap>|</snap>
-                <a class="anclass" href="#">SIGN-IN</a>
-            </div>
+        <label for="menu-check" class="hb"></label>
+        <nav class="main-nav">
+            <ul class="menu">
+            <li><a href="about.html" class="navtitle">關於袖珍</a>
+                <ul class="sub-menu">
+                    <li><a href="about.html#news">最新消息</a></li>
+                    <li><a href="about.html#tool">製作工具</a></li>
+                    <li><a href="about.html#process">製作流程</a></li>
+                </ul>
+            </li>
+            <li><a href="arts.html" class="navtitle">作品參考</a>
+                </li> 
+            <li><a href="shop.html" class="navtitle">袖珍商城</a>
+                <ul class="sub-menu">
+                    <li><a href="shop.html#scenes">精選場景</a></li>
+                    <li><a href="shop.html#accessories">配件</a></li>
+                    <li><a href="shop.html#recommend">推薦商品</a></li>
+                    <li><a href="shop.html#set">經典組合</a></li>
+                </ul></li>
+            <li><a href="act.html" class="navtitle">相關活動</a>
+                <ul class="sub-menu">
+                    <li><a href="act.html#diycourse"><snap class="en">DIY</snap>課程</a></li>
+                    <li><a href="act.html#artists">藝術家演講</a></li>
+                    <li><a href="act.html#exhibition">袖珍藝廊</a></li>
+                </ul>
+            </li>
+            </ul>
+        </nav>
+        <div class="member">
+            <a class="headericona" href="#"><img class="iconmember" src="pic/homepage/header-member2.png" ></a>
+            <a class="anclass" href="#">LOGIN</a>
+            <snap>|</snap>
+            <a class="anclass" href="#">SIGN-IN</a>
         </div>
+    </div>
     </header>
-        <div class="container">
-            <div class="banner">
-                <div class="studio">
-                    <div class="hello">
-                        <p class="helloword">
-                            小小世界<br>
-                            小而珍貴的作品<br>
-                            是一種<br>
-                            對生活的想像與紀念</p>
-                    </div>
-                    <h1>MINIWORLD</h1>
-                    <div class="link-top"></div>
-                    <p class="studio_name">袖珍藝術工作室</p>
+    <div class="container">
+        <div class="banner">
+            <div class="studio">
+                <div class="hello" id = "typed">
+                    <!-- <p class="helloword" >
+                        小小世界<br>
+                        小而珍貴的作品<br>
+                        是一種<br>
+                        對生活的想像與紀念</p> -->
                 </div>
-                <div class="studio_pic">
-                <img src="pic/homepage/fontpage-02.png" alt="首頁圖"></div>
+                <h1>MINIWORLD</h1>
+                <div class="link-top"></div>
+                <p class="studio_name">袖珍藝術工作室</p>
             </div>
+            <div class="studio_pic" id="studio_pic">
+            <img src="pic/homepage/fontpage-02.png" alt="首頁圖"></div>
+        </div>
+        
+            <!-- <div > -->
+
+            <header data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-anchor=".top"
+            data-aos-anchor-placement="top-center"
+             class="top">
+                <div class="headerall">
+                    <a class="toplogo" href="./miniworld.html">
+                        <img class="logo" src="pic/homepage/header-logo3.png" alt="">
+                        <img class="logotxt" src="pic/homepage/header-logotxt.png" alt="">
+                    </a>
+                    <nav class="main-nav">
+                        <ul class="menu">
+                        <li><a href="about.html">關於袖珍</a>
+                        
+                            <ul class="sub-menu">
+                                <li><a href="about.html#news">最新消息</a></li>
+                                <!-- <li><a href="about.html#story">袖珍故事</a></li> -->
+                                <li><a href="about.html#tool">製作工具</a></li>
+                                <li><a href="about.html#process">製作流程</a></li>
+                            </ul></li>
+                        <li><a href="arts.html">作品參考</a>
+                            <!-- <ul class="sub-menu">
+                                <li><a href="arts.html#eur">歐式</a></li>
+                                <li><a href="arts.html#chi">中式</a></li>
+                                <li><a href="arts.html#jap">日式</a></li>
+                                <li><a href="arts.html#hot">經典</a></li>
+                            </ul></li> -->
+                        <li><a href="shop.html">袖珍商城</a>
+                            <ul class="sub-menu">
+                                <li><a href="shop.html#scenes">精選場景</a></li>
+                                <li><a href="shop.html#accessories">配件</a></li>
+                                <li><a href="shop.html#recommend">推薦商品</a></li>
+                                <li><a href="shop.html#set">經典組合</a></li>
+                            </ul></li>
+                        <li><a href="act.html">相關活動</a>
+                            <ul class="sub-menu">
+                                <li><a href="act.html#diycourse"><snap class="en">DIY</snap>課程</a></li>
+                                <li><a href="act.html#artists">藝術家演講</a></li>
+                                <li><a href="act.html#exhibition">袖珍藝廊</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </nav>
+        
+                    <div class="member2">
+                        <a class="headericona" href="#"><img class="iconmember" src="pic/homepage/header-member.png" ></a>
+                        <a class="anclass" href="#">LOGIN</a>
+                        <snap>|</snap>
+                        <a class="anclass" href="#">SIGN-IN</a>
+                    </div>
+                </div>
+            </header>
+
             <section class="about">
                 <div class="title">
                     <h2>關於袖珍</h2>
@@ -89,7 +149,7 @@
                         <h4>袖珍藝術
                             一個個具體而微的世界</h4>
                         <p>袖珍藝術所表現的範圍很廣，取材大多仿自真實物品，<br>
-                            大到整棟建築，小到桌上的小物件，尺寸都嚴守十二分之一的比例，<br>
+                            大到整棟建築，小到桌上的小物件，<br>尺寸都嚴守十二分之一的比例，<br>
                             現為世界最普遍的規格， 而材質的種類繁多，<br>
                             越高級的作品越求原材質原結構重現，因此，<br>
                             袖珍藝術是屬跨材質的綜合性工藝。</p>
@@ -108,7 +168,9 @@
                     <br>
                     <h3>/ARTS</h3>
                 </div>
-                <div class="artsbox_up">
+                <div class="artsbox_up" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                         <a href="arts.html#hot">
                             <img src="pic/homepage/arts-tree.jpg" alt="">
                         </a>
@@ -127,7 +189,10 @@
                                 整體作品一點都不馬虎呢！</p>
                         </div>
                 </div>
-                <div class="artsbox_down">
+                <div class="artsbox_down" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-delay="100"
+                data-aos-easing="ease-in-sine">
                     <a href="arts.html#hot">
                         <img src="pic/homepage/arts-tv.jpg" alt="">
                     </a>
@@ -168,20 +233,81 @@
                             不放過珍貴的每分每秒！
                         </p>
                     </div>
-                    <div class="products">
-                        <div class="back">
-                            <div class="shop-item">
-                                <a class="last" href="shop.html"><</a>
-                                <a href="shop.html#set" class="box">
-                                    <img src="pic/homepage/shop-desk.jpg" alt=""></a>
-                                
-                                <a href="shop.html#set">
-                                    <img src="pic/homepage/shop-breakfast.jpg" alt=""></a>
-                                
-                                <a href="shop.html#scenes">
-                                    <img src="pic/homepage/shop-study.jpg" alt=""></a>
-                                
-                                <a class="next" href="shop.html">></a>
+                    <div class="products">    
+                        <div class="owl_before">
+                            <div class="owl-carousel owl-theme">
+                                <div class="shop-item">
+                                    <a href="shop.html#set" class="box">
+                                        <img src="pic/homepage/shop-desk.jpg" alt=""></a>
+                                        <div class="products_txt">
+                                            <h5>小茶几</h5>
+                                            <p>$500</p>
+                                        </div>
+                                </div>
+                                <div class="shop-item">
+                                    <a href="shop.html#set">
+                                        <img src="pic/homepage/shop-breakfast.jpg" alt=""></a>
+                                        <div class="products_txt">
+                                            <h5>早餐組合</h5>
+                                            <p>$420</p>
+                                        </div>
+                                </div>
+                                <div class="shop-item">
+                                    <a href="shop.html#scenes">
+                                        <img src="pic/homepage/shop-study.jpg" alt=""></a>
+                                        <div class="products_txt">
+                                            <h5>書房</h5>
+                                            <p>$1100</p>
+                                        </div>
+                                </div>
+                                <div class="shop-item">
+                                    <a href="shop.html#set" class="box">
+                                        <img src="pic/homepage/shop-desk.jpg" alt=""></a>
+                                        <div class="products_txt">
+                                            <h5>小茶几</h5>
+                                            <p>$500</p>
+                                        </div>
+                                </div>
+                                <div class="shop-item">
+                                    <a href="shop.html#set">
+                                        <img src="pic/homepage/shop-breakfast.jpg" alt=""></a>
+                                        <div class="products_txt">
+                                            <h5>早餐組合</h5>
+                                            <p>$420</p>
+                                        </div>
+                                </div>
+                                <div class="shop-item">
+                                    <a href="shop.html#scenes">
+                                        <img src="pic/homepage/shop-study.jpg" alt=""></a>
+                                        <div class="products_txt">
+                                            <h5>書房</h5>
+                                            <p>$1100</p>
+                                        </div>
+                                </div>
+                                <div class="shop-item">
+                                    <a href="shop.html#set" class="box">
+                                        <img src="pic/homepage/shop-desk.jpg" alt=""></a>
+                                        <div class="products_txt">
+                                            <h5>小茶几</h5>
+                                            <p>$500</p>
+                                        </div>
+                                </div>
+                                <div class="shop-item">
+                                    <a href="shop.html#set">
+                                        <img src="pic/homepage/shop-breakfast.jpg" alt=""></a>
+                                        <div class="products_txt">
+                                            <h5>早餐組合</h5>
+                                            <p>$420</p>
+                                        </div>
+                                </div>
+                                <div class="shop-item">
+                                    <a href="shop.html#scenes">
+                                        <img src="pic/homepage/shop-study.jpg" alt=""></a>
+                                        <div class="products_txt">
+                                            <h5>書房</h5>
+                                            <p>$1100</p>
+                                        </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -256,5 +382,88 @@
                 <p class="txt2">本網站為緯育<span class="fe">TibaMe</span>前端設計工程師班第<span class="fe">73</span>期學員專題作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊[<span class="fe">TibaMe</span>-前端設計工程師養成班]，後續會由專人協助處理。 </p>
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            window.onload=function(){
+                var studio_pic=document.getElementById("studio_pic");
+                studio_pic.style.opacity=1;
+            }
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="owl.carousel.min.js"></script>
+        <script>
+          $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:false,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    360:{
+                        items:3
+                    },
+                    1200:{
+                        items:4
+                    }
+                }
+            })
+        });
+        </script>
+
+        <script>
+          AOS.init();
+        </script>
+
+        <script>
+            let textLength = 0;
+            let text = '小小世界，小而珍貴的作品，是一種，對生活的想像與紀念';
+        
+            function type() {
+                let index = text.indexOf('，')
+                console.log(text.substr(0,index+1));
+               
+        
+              let textChar = text.charAt(textLength++);
+              let paragraph = document.getElementById("typed");
+              let charElement = document.createTextNode(textChar);
+              paragraph.appendChild(charElement);
+              if(textLength < text.length+1) {
+                  setTimeout('type()', 50);
+              } else {
+                  text = '';
+              }
+          }
+        
+            window.addEventListener("DOMContentLoaded", function() {
+                type();
+            });
+        
+          </script>
+
+
+          <!-- ============== -->
+
+          
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+        <script>
+			AOS.init({
+				// easing: 'ease-out-back',
+				// duration: 1000
+			});
+		</script>
+
+		<script>
+			hljs.initHighlightingOnLoad();
+
+			$('.hero__scroll').on('click', function(e) {
+				$('html, body').animate({
+					scrollTop: $(window).height()
+				}, 1200);
+			});
+		</script>
+        
 </body>
 </html>

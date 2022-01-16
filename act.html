@@ -6,58 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="act.css">
-    <link rel="stylesheet" href="header&footer 2.css">
+    <link rel="stylesheet" href="share.css">
     <title>miniworld</title>
     <link rel="icon" href="pic/homepage/web-icon.ico">
     <link rel="shortcut icon" href="pic/homepage/web-icon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="headerall">
-            <a class="toplogo" href="./miniworld.html">
-                <img class="logo" src="pic/homepage/header-logo.png" alt="">
-            </a>
-            <nav class="main-nav">
-                <ul class="menu">
-                <li><a href="about.html">關於袖珍</a>
-                
-                    <ul class="sub-menu">
-                        <li><a href="about.html#news">最新消息</a></li>
-                        <li><a href="about.html#story">袖珍故事</a></li>
-                        <li><a href="about.html#tool">製作工具</a></li>
-                        <li><a href="about.html#process">製作流程</a></li>
-                    </ul></li>
-                <li><a href="arts.html">作品參考</a>
-                    <ul class="sub-menu">
-                        <li><a href="arts.html#eur">歐式</a></li>
-                        <li><a href="arts.html#chi">中式</a></li>
-                        <li><a href="arts.html#jap">日式</a></li>
-                        <li><a href="arts.html#hot">經典</a></li>
-                    </ul></li>
-                <li><a href="shop.html">袖珍商城</a>
-                    <ul class="sub-menu">
-                        <li><a href="shop.html#scenes">精選場景</a></li>
-                        <li><a href="shop.html#accessories">配件</a></li>
-                        <li><a href="shop.html#recommend">推薦商品</a></li>
-                        <li><a href="shop.html#set">經典組合</a></li>
-                    </ul></li>
-                <li><a href="act.html">相關活動</a>
-                    <ul class="sub-menu">
-                        <li><a href="act.html#diycourse"><snap class="en">DIY</snap>課程</a></li>
-                        <li><a href="act.html#artists">藝術家演講</a></li>
-                        <li><a href="act.html#exhibition">袖珍藝廊</a></li>
-                    </ul>
-                </li>
-                </ul>
-            </nav>
+    <input type="checkbox" id="menu-check">
+    <header class="main-header">
+        <a href="./miniworld.html" class="logo">
+        <img class="main-logo" src="pic/homepage/header-logo4.png">
+        </a>
+        <a class="top_logo" href="./miniworld.html">
+            <img class="logo" src="pic/homepage/header-logo.png" alt="">
+        </a>
 
-            <!-- <div class="member">
-                <a class="headericona" href="#"><img class="iconmember" src="pic/homepage/header-member.png" ></a>
-                <a class="anclass" href="#">LOGIN</a>
-                <snap>|</snap>
-                <a class="anclass" href="#">SIGN-IN</a>
-            </div> -->
+        <label for="menu-check" class="hb"></label>
+        <nav class="main-nav">
+            <ul class="menu">
+            <li><a href="about.html" class="navtitle">關於袖珍</a>
+                <ul class="sub-menu">
+                    <li><a href="about.html#news">最新消息</a></li>
+                    <li><a href="about.html#tool">製作工具</a></li>
+                    <li><a href="about.html#process">製作流程</a></li>
+                </ul>
+            </li>
+            <li><a href="arts.html" class="navtitle">作品參考</a>
+                </li> 
+            <li><a href="shop.html" class="navtitle">袖珍商城</a>
+                <ul class="sub-menu">
+                    <li><a href="shop.html#scenes">精選場景</a></li>
+                    <li><a href="shop.html#accessories">配件</a></li>
+                    <li><a href="shop.html#recommend">推薦商品</a></li>
+                    <li><a href="shop.html#set">經典組合</a></li>
+                </ul></li>
+            <li><a href="act.html" class="navtitle">相關活動</a>
+                <ul class="sub-menu">
+                    <li><a href="act.html#diycourse"><snap class="en">DIY</snap>課程</a></li>
+                    <li><a href="act.html#artists">藝術家演講</a></li>
+                    <li><a href="act.html#exhibition">袖珍藝廊</a></li>
+                </ul>
+            </li>
+            </ul>
+        </nav>
+        <div class="member">
+            <a class="headericona" href="#"><img class="iconmember" src="pic/homepage/header-member2.png" ></a>
+            <a class="anclass" href="#">LOGIN</a>
+            <snap>|</snap>
+            <a class="anclass" href="#">SIGN-IN</a>
         </div>
+    </div>
     </header>
     <div class="container">
         <div class="acthead">
@@ -119,14 +118,20 @@
                 <h2>主題展覽</h2><br><snap class="en">Theme exhibition</snap>
             </div>
             <div class="exi_content">
-                <div class="content">
+                <div class="content" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                     <img src="pic/act/act-exi-offen.jpg" alt="">
                     <h3>袖珍常設典藏</h3>
                     <p>袖珍博物館尋訪世界各地網羅一流袖珍藝術大師作品，擁有排名世界級的收藏規模，包羅萬象的袖珍精品經過組合佈置後，主題作品目前展出約兩百餘件。</p>
                 </div>
-                <div class="content">
-                    <h3>期間限定特展</h3>
-                    <p>除了袖珍常設典藏展之外，我們也熱情邀請各方不同文化一起合作交流，延伸展覽內容與視野，透過不定期的特展，帶給參觀民眾多層次的觀賞體驗。</p>
+                <div class="content limit" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="2000">
+                    <div class="limit-txt">
+                        <h3>期間限定特展</h3>
+                        <p>除了袖珍常設典藏展之外，我們也熱情邀請各方不同文化一起合作交流，延伸展覽內容與視野，透過不定期的特展，帶給參觀民眾多層次的觀賞體驗。</p>
+                    </div>
                     <img src="pic/act/act-exi-limited.jpg" alt="">
                 </div>
             </div>
@@ -162,5 +167,9 @@
             <p class="txt2">本網站為緯育<span class="fe">TibaMe</span>前端設計工程師班第<span class="fe">73</span>期學員專題作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊[<span class="fe">TibaMe</span>-前端設計工程師養成班]，後續會由專人協助處理。 </p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     </body>
     </html>

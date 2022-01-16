@@ -6,59 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="item.css">
-    <link rel="stylesheet" href="header&footer 2.css">
+    <link rel="stylesheet" href="share.css">
     <title>miniworld</title>
     <link rel="icon" href="pic/homepage/web-icon.ico">
     <link rel="shortcut icon" href="pic/homepage/web-icon.ico">
 </head>
 <body>
-    
-    <header>
-        <div class="headerall">
-            <a class="toplogo" href="./miniworld.html">
-                <img class="logo" src="pic/homepage/header-logo.png" alt="">
-            </a>
-            <nav class="main-nav">
-                <ul class="menu">
-                <li><a href="about.html">關於袖珍</a>
-                
-                    <ul class="sub-menu">
-                        <li><a href="about.html#news">最新消息</a></li>
-                        <li><a href="about.html#story">袖珍故事</a></li>
-                        <li><a href="about.html#tool">製作工具</a></li>
-                        <li><a href="about.html#process">製作流程</a></li>
-                    </ul></li>
-                <li><a href="arts.html">作品參考</a>
-                    <ul class="sub-menu">
-                        <li><a href="arts.html#eur">歐式</a></li>
-                        <li><a href="arts.html#chi">中式</a></li>
-                        <li><a href="arts.html#jap">日式</a></li>
-                        <li><a href="arts.html#hot">經典</a></li>
-                    </ul></li>
-                <li><a href="shop.html">袖珍商城</a>
-                    <ul class="sub-menu">
-                        <li><a href="shop.html#scenes">精選場景</a></li>
-                        <li><a href="shop.html#accessories">配件</a></li>
-                        <li><a href="shop.html#recommend">推薦商品</a></li>
-                        <li><a href="shop.html#set">經典組合</a></li>
-                    </ul></li>
-                <li><a href="act.html">相關活動</a>
-                    <ul class="sub-menu">
-                        <li><a href="act.html#diycourse"><snap class="en">DIY</snap>課程</a></li>
-                        <li><a href="act.html#artists">藝術家演講</a></li>
-                        <li><a href="act.html#exhibition">袖珍藝廊</a></li>
-                    </ul>
-                </li>
-                </ul>
-            </nav>
+    <input type="checkbox" id="menu-check">
+    <header class="main-header">
+        <a href="./miniworld.html" class="logo">
+        <img class="main-logo" src="pic/homepage/header-logo4.png">
+        </a>
+        <a class="top_logo" href="./miniworld.html">
+            <img class="logo" src="pic/homepage/header-logo.png" alt="">
+        </a>
 
-            <!-- <div class="member">
-                <a class="headericona" href="#"><img class="iconmember" src="pic/homepage/header-member.png" ></a>
-                <a class="anclass" href="#">LOGIN</a>
-                <snap>|</snap>
-                <a class="anclass" href="#">SIGN-IN</a>
-            </div> -->
+        <label for="menu-check" class="hb"></label>
+        <nav class="main-nav">
+            <ul class="menu">
+            <li><a href="about.html" class="navtitle">關於袖珍</a>
+                <ul class="sub-menu">
+                    <li><a href="about.html#news">最新消息</a></li>
+                    <li><a href="about.html#tool">製作工具</a></li>
+                    <li><a href="about.html#process">製作流程</a></li>
+                </ul>
+            </li>
+            <li><a href="arts.html" class="navtitle">作品參考</a>
+                </li> 
+            <li><a href="shop.html" class="navtitle">袖珍商城</a>
+                <ul class="sub-menu">
+                    <li><a href="shop.html#scenes">精選場景</a></li>
+                    <li><a href="shop.html#accessories">配件</a></li>
+                    <li><a href="shop.html#recommend">推薦商品</a></li>
+                    <li><a href="shop.html#set">經典組合</a></li>
+                </ul></li>
+            <li><a href="act.html" class="navtitle">相關活動</a>
+                <ul class="sub-menu">
+                    <li><a href="act.html#diycourse"><snap class="en">DIY</snap>課程</a></li>
+                    <li><a href="act.html#artists">藝術家演講</a></li>
+                    <li><a href="act.html#exhibition">袖珍藝廊</a></li>
+                </ul>
+            </li>
+            </ul>
+        </nav>
+        <div class="member">
+            <a class="headericona" href="#"><img class="iconmember" src="pic/homepage/header-member2.png" ></a>
+            <a class="anclass" href="#">LOGIN</a>
+            <snap>|</snap>
+            <a class="anclass" href="#">SIGN-IN</a>
         </div>
+    </div>
     </header>
 
 
@@ -67,7 +64,17 @@
             <h1>袖珍商城</h1>
             <p class="headfirst"><snap class="en">SHOP</snap></p>
         </div>
-        
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">首頁</a></li>
+              <snap>&nbsp;>&nbsp;</snap>
+              <li class="breadcrumb-item"><a href="#">袖珍商城</a></li>
+              <snap>&nbsp;>&nbsp;</snap>
+              <li class="breadcrumb-item active" aria-current="page">商品</li>
+            </ol>
+        </nav>
+
         <section class="page">
         <a class="prevnext1" href="">
             < 上一件</a> | <a class="prevnext2" href="">下一件 >
@@ -76,8 +83,7 @@
         
         <div class="bakery">
         <div class="itempic">
-            <img src="pic/item/item-bakery.jpg" alt="bakery">
-        
+            <img id="large" src="pic/item/item-bakery.jpg" alt="bakery">
             <div class="itemsmallpic">
                 <img src="pic/item/item-middle-left.jpg" alt="">
                 <img src="pic/item/item-middle-right.jpg" alt="">
@@ -89,8 +95,9 @@
             <h3>Bakery</h3><br>
             <span class="price">$1000<br></span>
                 <div class="buttonall">
-                    <a id="btoa" class="buttongoto">加入購物車</a>
+                    <input id="btn" type="button" class="btn" value="加入購物車">
                 </div>
+                <img src="pic/item/heart_white.png" id="heart" title="加入收藏">   
                 <hr>
             
             <p class="intro">
@@ -152,5 +159,49 @@
         <p class="txt2">本網站為緯育<span class="fe">TibaMe</span>前端設計工程師班第<span class="fe">73</span>期學員專題作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊[<span class="fe">TibaMe</span>-前端設計工程師養成班]，後續會由專人協助處理。 </p>
     </div>
 </footer>
+
+<script>
+    let heart;
+    function switchFavorite(){
+      if(heart.title == "加入收藏"){
+    heart.src ="pic/item/heart_red.png";
+    heart.title = "取消收藏";
+    }else{
+     heart.src = "pic/item/heart_white.png";
+     heart.title = "加入收藏";
+     }
+    }
+    
+    function init(){
+      heart = document.getElementById("heart");
+      heart.onclick = switchFavorite;
+    }
+    window.addEventListener("load", init, false);
+    </script>
+    
+    <script type="text/javascript">
+        function btn_click(e){
+          e.stopPropagation();
+            window.alert("已加入購物車");
+        }
+        function init(){
+          document.getElementById("btn").onclick = btn_click;
+        }
+        window.onload = init;
+    </script>
+    <script>
+        function showLarge(e){
+            document.getElementById("large").src =e.target.src;
+        }
+        
+        function init(){
+                let smalls = document.querySelectorAll(".itemsmallpic img");
+                for(let i=0; i<smalls.length; i++){
+                    smalls[i].onclick = showLarge;
+                }
+            }
+        window.addEventListener("load", init, false);
+        </script>
+
 </body>
 </html>

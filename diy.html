@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="diy.css">
-    <link rel="stylesheet" href="header&footer 2.css">
+    <link rel="stylesheet" href="share.css">
     <title>miniworld</title>
     <link rel="icon" href="pic/homepage/web-icon.ico">
     <link rel="shortcut icon" href="pic/homepage/web-icon.ico">
@@ -21,85 +21,93 @@
     </script>
 </head>
 <body>
-    <header>
-        <div class="headerall">
-            <a class="toplogo" href="./miniworld.html">
-                <img class="logo" src="pic/homepage/header-logo.png" alt="">
-            </a>
-            <nav class="main-nav">
-                <ul class="menu">
-                <li><a href="about.html">關於袖珍</a>
-                
-                    <ul class="sub-menu">
-                        <li><a href="about.html#news">最新消息</a></li>
-                        <li><a href="about.html#story">袖珍故事</a></li>
-                        <li><a href="about.html#tool">製作工具</a></li>
-                        <li><a href="about.html#process">製作流程</a></li>
-                    </ul></li>
-                <li><a href="arts.html">作品參考</a>
-                    <ul class="sub-menu">
-                        <li><a href="arts.html#eur">歐式</a></li>
-                        <li><a href="arts.html#chi">中式</a></li>
-                        <li><a href="arts.html#jap">日式</a></li>
-                        <li><a href="arts.html#hot">經典</a></li>
-                    </ul></li>
-                <li><a href="shop.html">袖珍商城</a>
-                    <ul class="sub-menu">
-                        <li><a href="shop.html#scenes">精選場景</a></li>
-                        <li><a href="shop.html#accessories">配件</a></li>
-                        <li><a href="shop.html#recommend">推薦商品</a></li>
-                        <li><a href="shop.html#set">經典組合</a></li>
-                    </ul></li>
-                <li><a href="act.html">相關活動</a>
-                    <ul class="sub-menu">
-                        <li><a href="act.html#diycourse"><snap class="en">DIY</snap>課程</a></li>
-                        <li><a href="act.html#artists">藝術家演講</a></li>
-                        <li><a href="act.html#exhibition">袖珍藝廊</a></li>
-                    </ul>
-                </li>
-                </ul>
-            </nav>
+    <input type="checkbox" id="menu-check">
+    <header class="main-header">
+        <a href="./miniworld.html" class="logo">
+        <img class="main-logo" src="pic/homepage/header-logo4.png">
+        </a>
+        <a class="top_logo" href="./miniworld.html">
+            <img class="logo" src="pic/homepage/header-logo.png" alt="">
+        </a>
 
-            <!-- <div class="member">
-                <a class="headericona" href="#"><img class="iconmember" src="pic/homepage/header-member.png" ></a>
-                <a class="anclass" href="#">LOGIN</a>
-                <snap>|</snap>
-                <a class="anclass" href="#">SIGN-IN</a>
-            </div> -->
+        <label for="menu-check" class="hb"></label>
+        <nav class="main-nav">
+            <ul class="menu">
+            <li><a href="about.html" class="navtitle">關於袖珍</a>
+                <ul class="sub-menu">
+                    <li><a href="about.html#news">最新消息</a></li>
+                    <li><a href="about.html#tool">製作工具</a></li>
+                    <li><a href="about.html#process">製作流程</a></li>
+                </ul>
+            </li>
+            <li><a href="arts.html" class="navtitle">作品參考</a>
+                </li> 
+            <li><a href="shop.html" class="navtitle">袖珍商城</a>
+                <ul class="sub-menu">
+                    <li><a href="shop.html#scenes">精選場景</a></li>
+                    <li><a href="shop.html#accessories">配件</a></li>
+                    <li><a href="shop.html#recommend">推薦商品</a></li>
+                    <li><a href="shop.html#set">經典組合</a></li>
+                </ul></li>
+            <li><a href="act.html" class="navtitle">相關活動</a>
+                <ul class="sub-menu">
+                    <li><a href="act.html#diycourse"><snap class="en">DIY</snap>課程</a></li>
+                    <li><a href="act.html#artists">藝術家演講</a></li>
+                    <li><a href="act.html#exhibition">袖珍藝廊</a></li>
+                </ul>
+            </li>
+            </ul>
+        </nav>
+        <div class="member">
+            <a class="headericona" href="#"><img class="iconmember" src="pic/homepage/header-member2.png" ></a>
+            <a class="anclass" href="#">LOGIN</a>
+            <snap>|</snap>
+            <a class="anclass" href="#">SIGN-IN</a>
         </div>
+    </div>
     </header>
     <div class="container">
         <div class="headerwords">
             <h1>課程介紹</h1>
             <p class="headfirst"><snap class="en">CLASS</snap></p>
         </div>
+        
         <main>
+            <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="miniworld.html">首頁</a></li>
+              <snap>&nbsp;>&nbsp;</snap>
+              <li class="breadcrumb-item"><a href="act.html">相關活動</a></li>
+              <snap>&nbsp;>&nbsp;</snap>
+              <li class="breadcrumb-item active" aria-current="page">課程介紹</li>
+            </ol>
+            </nav>
             <section class="course">
                 <h2>小攤販<snap class="en">DIY</snap>課程</h2>
                 <h3>SMALL VENDOR DIY COURSE</h3>
                 <hr>
-                <p class="inword">
-                    <b>開課時間</b><br>
+                <div class="inword">
+                    <p>開課時間</p><br>
                     <span>2022</span>年<span>1</span>月<span>5</span>日<br>
                     <span>2022</span>年<span>1</span>月<span>20</span>日<br>
                     <span>9am - 12pm | 2pm - 5pm | 6pm - 9pm </span><br>
                     <br>
-                    <b>課程時間</b><br>
+                    <p>課程時間</p><br>
                     每堂<span>3</span>小時，依現場狀況為主
                     <br>
                     <br>
-                    <b>課程地點</b><br>
+                    <p>課程地點</p><br>
                    <span>320</span>桃園市中壢區復興路46號9樓<br>
                     <br>
-                    <b>人數-<span>CLASS SIZE</span></b><br>
+                    <p>人數-<span>CLASS SIZE</span></p><br>
                     <span>6-15</span>人<br>
                     <br>
-                    <b>學費-<span>FEE</span></b><br>
+                    <p>學費-<span>FEE</span></p><br>
                     <span>$1000</span><br>
-                </p>
+                </div>
                 <hr>
-                <p class="inword">
-                    <b>課程資訊</b>
+                <div class="inword2">
+                    <p>課程資訊</p>
                     <br>
                     在這堂課你可以學到用黏土作出不可思議的迷你攤販，許多獨家仿真技巧，並搭配溫暖系木小物及上色舊化效果，花一個下午，一起來探索袖珍世界吧！<br>
                     <br>
@@ -108,7 +116,7 @@
                     <span>2</span>.為維持學員與老師的上課品質，請務必準時抵達現場參加課程。<br>
                     <span>3</span>.課程須自備物品：A4切割墊、美工刀、剪刀、鑷子。<br>
                     <span>2</span>.課程最低開課人數為 6 人，最高上限為 15 人，若未達開課人數，會在課程 3 日前告知，並全額退款。<br>
-                </p>
+                </div>
             </section>
             <section class="course_right">
                 <div class="course_pic">
@@ -168,18 +176,18 @@
                     若因個人因素欲取消/改期/轉讓，需來信至客服信箱提出申請，日期計算依<snap class="en">e-mail</snap>申請時間為準。<br />
                     <br />
                     課程活動取消規則<br />
-                    ▶ 活動 <snap class="en">7</snap> 日前（不含活動當日）申請：全額退款。<br />
-                    ▶ 活動 <snap class="en">5</snap> 日前（不含活動當日）申請：退50%報名費。<br />
-                    ▶ 活動 <snap class="en">4</snap> 日前（不含活動當日）申請：不接受取消，並不予退款。<br />
-                    ▶ 活動中因個人因素而終止參與活動，將不予退款。<br />
-                    ▶ 若未達開課人數，會在課程 3 日前告知，並全額退款。<br />
-                    ▶ 如遇不可抗力之天災，如颱風、地震等，主辦單位保有改期、改變課程內容等權利，並主動以e-mail通知聯繫。<br />
+                    ▸ 活動 <snap class="en">7</snap> 日前（不含活動當日）申請：全額退款。<br />
+                    ▸ 活動 <snap class="en">5</snap> 日前（不含活動當日）申請：退50%報名費。<br />
+                    ▸ 活動 <snap class="en">4</snap> 日前（不含活動當日）申請：不接受取消，並不予退款。<br />
+                    ▸ 活動中因個人因素而終止參與活動，將不予退款。<br />
+                    ▸ 若未達開課人數，會在課程 3 日前告知，並全額退款。<br />
+                    ▸ 如遇不可抗力之天災，如颱風、地震等，主辦單位保有改期、改變課程內容等權利，並主動以e-mail通知聯繫。<br />
                     <br />
                     課程活動改期/轉讓規則<br />
-                    ▶ 活動<snap class="en">4</snap>  日前（不含活動當日）可轉讓名額，請務必告知代理者姓名及聯絡資訊。<br />
-                    ▶ 活動 <snap class="en">4 </snap>日前（不含活動當日）可申請改期，以一次為限。<br />
-                    ▶ 僅限變更同一價格之同一堂課的其他開課時間。<br />
-                    ▶ 經改期後的活動恕不接受取消申請。
+                    ▸ 活動<snap class="en">4</snap>  日前（不含活動當日）可轉讓名額，請務必告知代理者姓名及聯絡資訊。<br />
+                    ▸ 活動 <snap class="en">4 </snap>日前（不含活動當日）可申請改期，以一次為限。<br />
+                    ▸ 僅限變更同一價格之同一堂課的其他開課時間。<br />
+                    ▸ 經改期後的活動恕不接受取消申請。
                  </p>
             </div>
         </div>

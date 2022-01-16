@@ -1,8 +1,9 @@
 .headerwords{
     background-color: #fbf4ef;
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     text-align: center;
-    padding-left: 32px;
+    padding-top: 100px;
     margin: auto;
     box-sizing: border-box;
 }
@@ -16,22 +17,45 @@ h1{
 .headfirst{
     font-size: 20px;
     color: rgb(202, 130, 130);
+    margin: 10px 0;
 }
 
 /* --------------------------- */
-
+.breadcrumb{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 10% 0;
+    box-sizing: border-box;
+}
+.breadcrumb li {
+    color:#93948e ;
+}
+.breadcrumb snap {
+    color:#93948e ;
+}
+.breadcrumb li a{
+    text-decoration: none;
+    color:#93948e ;
+}
+.breadcrumb li a:hover{
+    text-decoration: none;
+    color:rgb(223, 146, 146);
+}
 
 .page {
     text-align: right;
     color: #93948e;
     background-color: #fbf4ef;
-    width: 1200px;
-    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto 0;
+    box-sizing: border-box;
 }
 .prevnext1 {
     margin: 10px;
     font-size: 14px;
-    font-family: 'Noto Serif JP', serif;
     color: #93948e;
     text-decoration: none;
     border-radius: 4px;
@@ -42,7 +66,6 @@ h1{
 .prevnext2 {
     margin: 10px;
     font-size: 14px;
-    font-family: 'Noto Serif JP', serif;
     color: #93948e;
     text-decoration: none;
     border-radius: 4px;
@@ -62,51 +85,49 @@ h1{
 .bakery {
     text-align: center;
     background-color: #fbf4ef;
-    width: 1200px;
-    margin: auto;
-    padding-bottom: 50px;
+    width: 350px;
+    margin: auto 0;
+    box-sizing: border-box;
 }
 .itempic {
-    margin-top: 6px;
-    width: 415px;
+    width: 350px;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 20px;
+    margin: 40px 0;
+    margin-left: 50px;
     text-align: left;
-    font-size: 0;
+    box-sizing: border-box;
 }
 
 .itempic img{
     display: block;
     position: relative;
-    width: 480px;
-    margin: 0px;
-    margin-top: 80px;
-    border-radius: 5%;
-    
+    width: 80%;
+    /* margin-top: 80px; */
+    border-radius: 5%;   
 }
 .itemsmallpic{
     display: flex;
+    justify-content: flex-start;
 }
 .itemsmallpic img{
     display: block;
     position: relative;
-    width: 30%;
-    margin: auto;
+    width: 25%;
+    margin: 0 5px;
     margin-top: 15px;
     border-radius: 10px;
 }
 .itemwords {
     vertical-align: top;
     text-align: left;
+    margin-left: 60px;
     display: inline-block;
-    margin-left: 100px;
-    opacity: 0.8;
+    width: 300px;
 }
 
 h2 {
     border-left: 10px solid #f5b5bb;
-    margin: 90px 0px 5px -19px;
+    margin: 10px 0px 5px -19px;
     font-size: 22px;
     padding-left: 5px;
 }
@@ -143,6 +164,20 @@ hr {
     font-family: "Arial";
     font-size: 14px;
 }
+.btn{
+    cursor: pointer;
+    color: white;
+    padding: 8px 10px;
+    padding-right: 42px;
+    background-color: #929c9c;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.6s;
+    position: relative;
+}
+.btn:hover {
+    background-color: #d17a90;
+}
 .buttongoto {
     text-decoration: none;
     cursor: pointer;
@@ -169,21 +204,77 @@ hr {
 
 .txt{
     background-color: #fbf4ef;
-    width: 1200px;
+    width: 100%;
     margin: auto;
     color: #93948e;
     font-family: 'Noto Serif JP', serif;
     font-size: 12px;
     line-height: 2;
     box-sizing: border-box;
-    margin-top: -20px;
+    padding: 40px 15px;
+
 }
 .txt .summary{
-    width: 100%;
-    padding-left: 170px;
-    padding-bottom: 40px;
+    width: 75%;
+    margin: auto;
 }
 .txt .notice {
     font-family: 'Arial';
     font-size: 12px;
 }
+
+@media screen and (min-width:768px) {
+    .headerwords{
+        padding-top: 0;
+    }
+    .breadcrumb{
+        /* margin-left: 190px;
+        margin-top: 80px; */
+        padding: 80px 190px 0;
+    }
+    .page {
+        width: 100%;
+        max-width: 1200px;
+    }
+    .bakery {
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .itempic {
+        margin-top: 20px;
+        width: 450px;
+        display: inline-block;
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .itempic img{
+        width: 480px; 
+    }
+    .itemsmallpic img{
+        width: 30%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    
+    .itemsmallpic{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .itemwords {
+        margin-top: 90px;
+        margin-left: 100px;
+    }
+    .txt{
+        width: 100%;
+        max-width: 1200px;
+    }
+    .txt .summary{
+        padding-left: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+
+

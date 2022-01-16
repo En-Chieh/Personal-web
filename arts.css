@@ -1,15 +1,18 @@
 .artshead{
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: auto;
     background-color: #fbf4ef;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 .headerwords{
     background-color: #fbf4ef;
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     text-align: center;
-    margin-left: 32px;
+    /* margin-left: 32px; */
+    padding-top: 100px;
 }
 h1{
     font-size: 40px;
@@ -23,24 +26,26 @@ h1{
 .headfirst{
     font-size: 20px;
     color: rgb(202, 130, 130);
+    margin: 10px 0;
 }
 .talktoyou{
     color:#6d6c6c;
-    margin-top: 100px;
+    margin: 30px 0;
     font-size: 18px;
     line-height: 1.5;
 }
 .artsimg{
-    margin-right: 50px;
-    margin-bottom: 30px;
+    width: 100%;
+    margin: auto;
 }
 .artsimg img{
-    width: 600px;
-    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+    /* border-radius: 20px; */
 }
 
 
-.insub-menu{
+/* .insub-menu{
     display: flex;
     justify-content: center;
 }
@@ -70,37 +75,60 @@ h1{
     margin: auto;
     background-color: #fbf4ef;
     padding: 30px 0 ;
+} */
+
+.panel-group{
+    background-color:#fbf4ef ;
 }
-.eur{
-    display: flex;
+.panel-control {
+position:absolute;
+opacity:0;
+}
+.tab-group {
+display:flex;
+justify-content: center;
+}
+.tab-group label {
+display:inline-block;
+padding: 8px 20px;
+margin: 0 10px;
+border:1px solid rgb(202, 130, 130);
+color: rgb(255, 255, 255);
+/* border-bottom:none; */
+background-color: rgb(202, 130, 130);
+border-radius: 3px;
+bottom:-1px;
+position:relative;
+}
+.content-group {
+/* border:1px solid #ccc; */
+padding: 20px;
+}
+.content{display:none;}
+
+#radio1:checked ~ .tab-group [for="radio1"],
+#radio2:checked ~ .tab-group [for="radio2"],
+#radio3:checked ~ .tab-group [for="radio3"],
+#radio4:checked ~ .tab-group [for="radio4"]{color: rgb(145, 142, 142);
+    background-color: #fff0;}
+
+#radio1:checked ~ .content-group .content1,
+#radio2:checked ~ .content-group .content2,
+#radio3:checked ~ .content-group .content3,
+#radio4:checked ~ .content-group .content4 {display:block;
+}
+
+
+.eur,
+.chinese,
+.japan,
+.classic
+{
+    display: block;
     flex-wrap: wrap;
-    margin: 10px 100px;
+    margin: 10px 30px;
 }
-.chinese{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px 100px;
-}
-.japan{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px 100px;
-}
-.classic{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px 100px;
-}
-.chinese .item {
-    width: calc(100% / 3 - 30px);
-}
-.item{
-    /* border: 2px solid red; */
-    padding: 10px;
-    margin: 15px;
-    box-sizing: border-box;
-    width: calc(100% / 2 - 30px);
-}
+
 .item img{
     width: 100%;
     vertical-align: top;
@@ -119,4 +147,128 @@ h3 {
     font-size: 16px;
     color: rgb(114, 111, 109);
     line-height: 1.5;
+}
+
+.arts_shop{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fbf4ef;
+    padding: 20px 0; 
+}
+.arts_items{
+    display: block;
+    margin: 0 20px;
+}
+.arts_diy{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px;
+    align-items: center;
+}
+
+.arts_diy img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: black;
+    box-shadow: -4px 4px 10px rgba(105, 105, 105, 0.5)
+}
+.arts_diy h4{
+    font-size: 18px;
+    margin: 25px 0 0;
+    color:#946464;
+    text-align: center;
+}
+.arts_diy p{
+    position: relative;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px;
+    padding-bottom:30px ;
+    text-align: center;
+}
+.rec{
+    text-decoration: none;
+    color: black;
+}
+.rec h4:hover{
+    color: rgb(211, 145, 145);
+    transform: scale(1.1);
+}
+
+.arts_items img:hover {
+    transform: scale(1.02);
+    box-shadow: -4px 4px 10px rgba(105, 105, 105, 0.5);
+}
+h2 {
+    border-bottom: 5px solid #f5b5bb;
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-family: 'Microsoft JhengHei';
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.owl_before{
+    width: 100%;
+    margin: 20px;
+}
+@media(min-width:768px) {
+    .artshead{
+        display: flex;
+    }
+    .headerwords{
+        padding-top: 0;
+    }
+    .artsimg{
+        margin-right: 50px;
+        margin-bottom: 30px;
+    }
+    .artsimg img{
+        width: 600px;
+        border-radius: 20px;
+    }
+    .talktoyou{
+        margin-top: 60px;
+    }
+    .item img{
+        width: 100%;
+    }
+    
+    .eur,
+    .chinese,
+    .japan,
+    .classic
+    {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 100px;
+    }
+    .chinese .item {
+        width: calc(100% / 3 - 30px);
+    }
+    .item{
+        /* border: 2px solid red; */
+        padding: 10px;
+        margin: 15px;
+        box-sizing: border-box;
+        width: calc(100% / 2 - 30px);
+    }
+    .arts_items{
+        display: flex;
+        margin: 0 20px;
+    }
+    .arts_diy{
+        width: 100%;
+    }
+    h2{
+       margin-bottom: 40px;
+       margin-left: 150px;
+    }
+    .owl_before{
+        width: 80%;
+        margin: auto;
+    }
 }
